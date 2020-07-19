@@ -1,12 +1,10 @@
 # Package
 
 version       = "0.1.0"
-author        = "Anonymous"
-description   = "Implements soundex"
+author        = "ire4ever1190"
+description   = "Implements soundex hash algorithm"
 license       = "MIT"
 srcDir        = "src"
-
-
 
 # Dependencies
 
