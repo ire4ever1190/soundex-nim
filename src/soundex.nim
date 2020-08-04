@@ -56,3 +56,4 @@ when isMainModule:
     for i in 0..10000:
         discard soundex(ranString())
     echo "done"
+    echo soundex("hello")

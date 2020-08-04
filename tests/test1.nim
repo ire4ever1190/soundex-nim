@@ -16,3 +16,4 @@ test "Soundex":
   check soundex("Pfister") == "P236"
   check soundex("honeyman") == "H555"
   check soundex("give") == soundex("gib")
+  check soundex("hello") == "H400"
