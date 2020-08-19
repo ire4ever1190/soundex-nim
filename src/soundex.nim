@@ -21,6 +21,8 @@ proc getNumber(letter: char): char =
 
 proc soundex*(input: string): string =
     ## Gets soundex hash of string
+    if len(input) == 0:
+        return ""
     result &= input[0].toUpperAscii()
     var previousNum = getNumber(input[0])
     var seperatedByVowel = false
@@ -57,3 +59,4 @@ when isMainModule:
         discard soundex(ranString())
     echo "done"
     echo soundex("hello")
+    echo soundex("")
